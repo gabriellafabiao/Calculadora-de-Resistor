@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #0085DC;
+}
+
+.content {
+    width: 50%;
+    border: 3px solid #0085DC;
+    border-radius: 25px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+nav.menu-faixas {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.botoes-faixas input{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #DB1A4E;
+    background-color: #DB1A4E;
+    color: white;
+}
+
+.botoes-faixas input:hover{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #DB1A4E;
+    background-color: white;
+    color: #DB1A4E;
+}
+
+.calculadora {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.box-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.box-resistor {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+select {
+    border: 2px solid #dddddd;
+    padding: 8px 16px 8px 0px;
+    border-radius: 8px;
+}
+
+
+option.multiplicador-faixa,
+option.primeira-faixa,
+option.segunda-faixa,
+option.tolerancia{
+    color: black;
+}
+
+option{
+    color: white;
+}
+
+option.preto {
+    background-color: black;
+}
+
+option.marron {
+    background-color: rgb(92, 45, 45);
+}
+
+option.vermelho {
+    background-color: red;
+}
+
+option.laranja {
+    background-color: rgb(255, 123, 0);
+}
+
+option.amarelo {
+    background-color: yellow;
+    color: black;
+}
+
+option.verde {
+    background-color: green;
+}
+
+option.azul {
+    background-color: blue;
+}
+
+option.violeta {
+    background-color: violet;
+}
+
+option.cinza {
+    background-color: rgb(112, 112, 112);
+}
+
+option.branco {
+    background-color: white;
+    color: black;
+}
+
+option.dourado {
+    background-color: goldenrod;
+}
+
+option.prata {
+    background-color: silver;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Calculadora de Resistor</h1>
+            <nav class="menu-faixas">
+                <div class="botoes-faixas">
+                    <input type="button" id="v4b" value="4 Faixas" class="faixas-nav">
+                </div>
+            </nav>
+            <div class="calculadora">
+                <div class="box-options">
+                    <h3>Selecione as Cores</h3>
+                    <select name="OP1" class="option1 colorSelect">
+                        <option value="-1" selected="" class="primeira-faixa">Primeira Faixa</option>
+                        <option value="0" class="preto">Preto (0)</option>
+                        <option value="1" class="marron">Marrom (1)</option>
+                        <option value="2" class="vermelho">Vermelho (2)</option>
+                        <option value="3" class="laranja">Laranja (3)</option>
+                        <option value="4" class="amarelo">Amarelo (4)</option>
+                        <option value="5" class="verde">Verde (5)</option>
+                        <option value="6" class="azul">Azul (6)</option>
+                        <option value="7" class="violeta">Violeta (7)</option>
+                        <option value="8" class="cinza">Cinza (8)</option>
+                        <option value="9" class="branco">Branco (9)</option>
+                    </select>
+                    <select name="OP2" class="option2 colorSelect">
+                        <option value="-1" selected="" class="segunda-faixa">Segunda Faixa</option>
+                        <option value="0" class="preto">Preto (0)</option>
+                        <option value="1" class="marron">Marrom (1)</option>
+                        <option value="2" class="vermelho">Vermelho (2)</option>
+                        <option value="3" class="laranja">Laranja (3)</option>
+                        <option value="4" class="amarelo">Amarelo (4)</option>
+                        <option value="5" class="verde">Verde (5)</option>
+                        <option value="6" class="azul">Azul (6)</option>
+                        <option value="7" class="violeta">Violeta (7)</option>
+                        <option value="8" class="cinza">Cinza (8)</option>
+                        <option value="9" class="branco">Branco (9)</option>
+                    </select>
+                    <select name="OP3" class="option3 colorSelect">
+                        <option value="-1" selected="" class="multiplicador-faixa">Multiplicador(*)</option>
+                        <option value="1" class="preto">Preto (x1 Ω)</option>
+                        <option value="10" class="marron">Marrom (x10 Ω)</option>
+                        <option value="100" class="vermelho">Vermelho (x100 Ω)</option>
+                        <option value="1000" class="laranja">Laranja (x1 kΩ)</option>
+                        <option value="10000" class="amarelo">Amarelo (x10 kΩ)</option>
+                        <option value="100000" class="verde">Verde (x100 kΩ)</option>
+                        <option value="1000000" class="azul">Azul (x1 MΩ)</option>
+                        <option value="10000000" class="violeta">Violeta (x10 MΩ)</option>
+                        <option value="100000000" class="cinza">Cinza (x100 MΩ)</option>
+                        <option value="1000000000" class="branco">Branco (x1 GΩ)</option>
+                        <option value="0.1" class="dourado">Dourado (x0.1 Ω)</option>
+                        <option value="0.01" class="prata">Prata (x0.01 Ω)</option>
+                    </select>
+                    <select name="OP4" class="option4 colorSelect">                        
+                        <option value="-1" selected="" class="tolerancia">Tolerância</option>
+                        <option value="± 1%" class="marron">Marron ± 1%</option>
+                        <option value="± 2%" class="vermelho">Vermelho ± 2%</option>
+                        <option value="± 0.5%" class="verde">Verde ± 0.5%</option>
+                        <option value="± 0.25%" class="azul">Azul ± 0.25%</option>
+                        <option value="± 0.1%" class="violeta">Violeta ± 0.1%</option>
+                        <option value="± 0.05%" class="cinza">Cinza ± 0.05%</option>
+                        <option value="± 5%" class="dourado">Dourado ± 5% </option>
+                        <option value="± 10%" class="prata">Prata ± 10%</option>
+                    </select>
+                </div>
+                <div class="box-resistor">
+                    <img src="" alt="">
+                    <label for="total">Valor do registor</label>
+                    <input type="text" class="value">
+                    <button type="submit">Calcular</button>
+                    <button type="submit">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
